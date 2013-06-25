@@ -1,7 +1,20 @@
+/*
+****************************************************************
+*	Name    : showNewsCategory
+*	Author  : Kony 
+*	Purpose : This function is to show News category form
+****************************************************************
+*/
 function showNewsCategory(){
 		frmNewsCategory.show();
 }
-
+/*
+****************************************************************
+*	Name    : frmNewsCategory_segCategory_onRowClick_response
+*	Author  : Kony 
+*	Purpose : This function is the sucess callback for the service call
+****************************************************************
+*/
 function frmNewsCategory_segCategory_onRowClick_response(status, News) {
     if (status == 400) {
              if (News != null && News != undefined && News["channel"] != null && News["channel"] != undefined) {
@@ -21,7 +34,13 @@ function frmNewsCategory_segCategory_onRowClick_response(status, News) {
         frmResult.show();
     }
 }
-
+/*
+****************************************************************
+*	Name    : frmNewsCategory_segCategory_onRowClick
+*	Author  : Kony 
+*	Purpose : This function is to make service call 
+****************************************************************
+*/
 function frmNewsCategory_segCategory_onRowClick(eventobject, sectionNumber, rowNumber) {
     kony.application.showLoadingScreen("loadingscreen", "loading...", constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, true, null);
     var News_inputparam = {};
