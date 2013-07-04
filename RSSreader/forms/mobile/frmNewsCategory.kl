@@ -1460,129 +1460,11 @@
                                 <key>js</key>
                                 <value>frmNewsCategory_segCategory_onRowClick</value>
                             </entry>
-                            <entry>
-                                <key>lua</key>
-                                <value>None</value>
-                            </entry>
                         </functionNameMap>
-                        <paramData>
-                            <datatype>string</datatype>
-                            <paramName>eventobject</paramName>
-                            <valType>0</valType>
-                            <value></value>
-                            <valueMap>
-                                <entry>
-                                    <key>js</key>
-                                    <value>eventobject</value>
-                                </entry>
-                            </valueMap>
-                        </paramData>
-                        <paramData>
-                            <datatype>string</datatype>
-                            <paramName>sectionNumber</paramName>
-                            <valType>0</valType>
-                            <value></value>
-                            <valueMap>
-                                <entry>
-                                    <key>js</key>
-                                    <value>sectionNumber</value>
-                                </entry>
-                            </valueMap>
-                        </paramData>
-                        <paramData>
-                            <datatype>string</datatype>
-                            <paramName>rowNumber</paramName>
-                            <valType>0</valType>
-                            <value></value>
-                            <valueMap>
-                                <entry>
-                                    <key>js</key>
-                                    <value>rowNumber</value>
-                                </entry>
-                            </valueMap>
-                        </paramData>
                         <paramDataMap>
                             <entry>
                                 <key>js</key>
-                                <value>
-                                    <paramList>
-                                        <datatype>string</datatype>
-                                        <paramName>eventobject</paramName>
-                                        <valType>0</valType>
-                                        <value></value>
-                                        <valueMap>
-                                            <entry>
-                                                <key>js</key>
-                                                <value>eventobject</value>
-                                            </entry>
-                                        </valueMap>
-                                    </paramList>
-                                    <paramList>
-                                        <datatype>string</datatype>
-                                        <paramName>sectionNumber</paramName>
-                                        <valType>0</valType>
-                                        <value></value>
-                                        <valueMap>
-                                            <entry>
-                                                <key>js</key>
-                                                <value>sectionNumber</value>
-                                            </entry>
-                                        </valueMap>
-                                    </paramList>
-                                    <paramList>
-                                        <datatype>string</datatype>
-                                        <paramName>rowNumber</paramName>
-                                        <valType>0</valType>
-                                        <value></value>
-                                        <valueMap>
-                                            <entry>
-                                                <key>js</key>
-                                                <value>rowNumber</value>
-                                            </entry>
-                                        </valueMap>
-                                    </paramList>
-                                </value>
-                            </entry>
-                            <entry>
-                                <key>lua</key>
-                                <value>
-                                    <paramList>
-                                        <datatype>string</datatype>
-                                        <paramName>eventobject</paramName>
-                                        <valType>0</valType>
-                                        <value></value>
-                                        <valueMap>
-                                            <entry>
-                                                <key>js</key>
-                                                <value>eventobject</value>
-                                            </entry>
-                                        </valueMap>
-                                    </paramList>
-                                    <paramList>
-                                        <datatype>string</datatype>
-                                        <paramName>sectionNumber</paramName>
-                                        <valType>0</valType>
-                                        <value></value>
-                                        <valueMap>
-                                            <entry>
-                                                <key>js</key>
-                                                <value>sectionNumber</value>
-                                            </entry>
-                                        </valueMap>
-                                    </paramList>
-                                    <paramList>
-                                        <datatype>string</datatype>
-                                        <paramName>rowNumber</paramName>
-                                        <valType>0</valType>
-                                        <value></value>
-                                        <valueMap>
-                                            <entry>
-                                                <key>js</key>
-                                                <value>rowNumber</value>
-                                            </entry>
-                                        </valueMap>
-                                    </paramList>
-                                </value>
+                                <value/>
                             </entry>
                         </paramDataMap>
                     </actionList>
@@ -1614,7 +1496,7 @@
             <iphone_enableDictionary>false</iphone_enableDictionary>
             <iphone_npi>true</iphone_npi>
             <iphone_pi_color>0</iphone_pi_color>
-            <iphone_bounces>true</iphone_bounces>
+            <iphone_bounces>false</iphone_bounces>
             <iphone_searchById>None</iphone_searchById>
             <iphone_view>0</iphone_view>
             <iphone_searchCriteria>0</iphone_searchCriteria>
@@ -2353,7 +2235,7 @@
                 <tc_spaandroid>true</tc_spaandroid>
                 <tc_spabb>true</tc_spabb>
                 <tc_spabb_nth>true</tc_spabb_nth>
-                <tc_spaiphone>true</tc_spaiphone>
+                <tc_spaiphone>false</tc_spaiphone>
                 <tc_spawindows>true</tc_spawindows>
                 <tc_spawinphone8>true</tc_spawinphone8>
                 <tc_xhtml>false</tc_xhtml>

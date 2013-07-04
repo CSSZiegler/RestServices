@@ -1967,6 +1967,18 @@
             <parent_contentalignment>middle-center</parent_contentalignment>
             <event_onClick>
                 <evtSequence>
+                    <actionList xsi:type="eventExpressionAction">
+                        <enabled>true</enabled>
+                        <name></name>
+                        <type>5</type>
+                        <expr></expr>
+                        <exprMap>
+                            <entry>
+                                <key>js</key>
+                                <value>channel = "mobile";</value>
+                            </entry>
+                        </exprMap>
+                    </actionList>
                     <actionList xsi:type="eventFunctionAction">
                         <enabled>true</enabled>
                         <name></name>
@@ -1977,10 +1989,18 @@
                                 <key>js</key>
                                 <value>showNewsCategory</value>
                             </entry>
+                            <entry>
+                                <key>lua</key>
+                                <value>None</value>
+                            </entry>
                         </functionNameMap>
                         <paramDataMap>
                             <entry>
                                 <key>js</key>
+                                <value/>
+                            </entry>
+                            <entry>
+                                <key>lua</key>
                                 <value/>
                             </entry>
                         </paramDataMap>
@@ -2112,7 +2132,7 @@
                 <tc_spaandroid>true</tc_spaandroid>
                 <tc_spabb>true</tc_spabb>
                 <tc_spabb_nth>true</tc_spabb_nth>
-                <tc_spaiphone>true</tc_spaiphone>
+                <tc_spaiphone>false</tc_spaiphone>
                 <tc_spawindows>true</tc_spawindows>
                 <tc_spawinphone8>true</tc_spawinphone8>
                 <tc_xhtml>false</tc_xhtml>
@@ -4610,8 +4630,8 @@
                 </sizePercent>
                 <skinId>Skin Defaults</skinId>
                 <focusSkinId>Skin Defaults</focusSkinId>
-                <referenceWidth></referenceWidth>
-                <referenceHeight></referenceHeight>
+                <referenceWidth>6</referenceWidth>
+                <referenceHeight>6</referenceHeight>
                 <localeId>None</localeId>
                 <visible>true</visible>
                 <rendererData>
@@ -5189,7 +5209,7 @@
                 <contentAlign>4</contentAlign>
                 <defaultImageText></defaultImageText>
                 <animationText></animationText>
-                <scale_mode>1</scale_mode>
+                <scale_mode>0</scale_mode>
                 <itemSkinId>Skin Defaults</itemSkinId>
                 <itemFocusSkinId>Skin Defaults</itemFocusSkinId>
                 <iphone_glossy_effect>0</iphone_glossy_effect>

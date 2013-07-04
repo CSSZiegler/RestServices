@@ -2158,7 +2158,7 @@
                 <tc_spaandroid>true</tc_spaandroid>
                 <tc_spabb>true</tc_spabb>
                 <tc_spabb_nth>true</tc_spabb_nth>
-                <tc_spaiphone>true</tc_spaiphone>
+                <tc_spaiphone>false</tc_spaiphone>
                 <tc_spawindows>true</tc_spawindows>
                 <tc_spawinphone8>true</tc_spawinphone8>
                 <tc_xhtml>false</tc_xhtml>

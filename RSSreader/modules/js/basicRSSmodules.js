@@ -41,7 +41,7 @@ function frmNewsCategory_segCategory_onRowClick_response(status, News) {
 *	Purpose : This function is to make service call 
 ****************************************************************
 */
-function frmNewsCategory_segCategory_onRowClick(eventobject, sectionNumber, rowNumber) {
+function frmNewsCategory_segCategory_onRowClick() {
     kony.application.showLoadingScreen("loadingscreen", "loading...", constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, true, null);
     var News_inputparam = {};
     News_inputparam["serviceID"] = "News";
@@ -50,3 +50,23 @@ function frmNewsCategory_segCategory_onRowClick(eventobject, sectionNumber, rowN
     News_inputparam["httpconfigs"] = {};
     News = appmiddlewareinvokerasync(News_inputparam, frmNewsCategory_segCategory_onRowClick_response);
 }
+
+/*
+****************************************************************
+*	Name    : setIndex
+*	Author  : Kony 
+*	Purpose : This function is to set index of segment for the first time 
+****************************************************************
+*/
+
+function setIndex()
+{
+	if(flag){
+		frmNewsCategory.segCategory.selectedIndex=[0,0];
+		frmNewsCategory_segCategory_onRowClick();
+		flag =false;
+	}	
+}	
+	
+			
+

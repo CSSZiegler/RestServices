@@ -418,7 +418,7 @@
         <headerId>None</headerId>
         <footerId>None</footerId>
         <title>News Category</title>
-        <init>
+        <postShow_root>
             <evtSequence>
                 <actionList xsi:type="eventFunctionAction">
                     <enabled>true</enabled>
@@ -428,104 +428,22 @@
                     <functionNameMap>
                         <entry>
                             <key>js</key>
-                            <value>frmNewsCategory_segCategory_onRowClick</value>
-                        </entry>
-                        <entry>
-                            <key>lua</key>
-                            <value>None</value>
+                            <value>setIndex</value>
                         </entry>
                     </functionNameMap>
-                    <paramData>
-                        <datatype>string</datatype>
-                        <paramName>eventobject</paramName>
-                        <valType>0</valType>
-                        <value></value>
-                        <valueMap/>
-                    </paramData>
-                    <paramData>
-                        <datatype>string</datatype>
-                        <paramName>sectionNumber</paramName>
-                        <valType>0</valType>
-                        <value></value>
-                        <valueMap/>
-                    </paramData>
-                    <paramData>
-                        <datatype>string</datatype>
-                        <paramName>rowNumber</paramName>
-                        <valType>0</valType>
-                        <value></value>
-                        <valueMap/>
-                    </paramData>
                     <paramDataMap>
                         <entry>
                             <key>js</key>
-                            <value>
-                                <paramList>
-                                    <datatype>string</datatype>
-                                    <paramName>eventobject</paramName>
-                                    <valType>0</valType>
-                                    <value></value>
-                                    <valueMap>
-                                        <entry>
-                                            <key>js</key>
-                                            <value></value>
-                                        </entry>
-                                    </valueMap>
-                                </paramList>
-                                <paramList>
-                                    <datatype>string</datatype>
-                                    <paramName>sectionNumber</paramName>
-                                    <valType>0</valType>
-                                    <value></value>
-                                    <valueMap>
-                                        <entry>
-                                            <key>js</key>
-                                            <value></value>
-                                        </entry>
-                                    </valueMap>
-                                </paramList>
-                                <paramList>
-                                    <datatype>string</datatype>
-                                    <paramName>rowNumber</paramName>
-                                    <valType>0</valType>
-                                    <value></value>
-                                    <valueMap>
-                                        <entry>
-                                            <key>js</key>
-                                            <value></value>
-                                        </entry>
-                                    </valueMap>
-                                </paramList>
-                            </value>
-                        </entry>
-                        <entry>
-                            <key>lua</key>
-                            <value>
-                                <paramList>
-                                    <datatype>string</datatype>
-                                    <paramName>eventobject</paramName>
-                                    <valType>0</valType>
-                                    <value></value>
-                                    <valueMap/>
-                                </paramList>
-                                <paramList>
-                                    <datatype>string</datatype>
-                                    <paramName>sectionNumber</paramName>
-                                    <valType>0</valType>
-                                    <value></value>
-                                    <valueMap/>
-                                </paramList>
-                                <paramList>
-                                    <datatype>string</datatype>
-                                    <paramName>rowNumber</paramName>
-                                    <valType>0</valType>
-                                    <value></value>
-                                    <valueMap/>
-                                </paramList>
-                            </value>
+                            <value/>
                         </entry>
                     </paramDataMap>
                 </actionList>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </postShow_root>
+        <init>
+            <evtSequence>
                 <enabled>true</enabled>
                 <seqname></seqname>
             </evtSequence>
