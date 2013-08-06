@@ -1,4 +1,4 @@
-RSSreader
+RestServices
 =======================
 
 Application to Showcase XML Services.
