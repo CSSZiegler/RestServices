@@ -11,3 +11,6 @@ This application will showcase the features like creating and using REST Service
   - Creating a XML service using IDE
   - Passing dynamic input to the service on call
   - Calling service in Async mode
+
+# Supported platforms:
+iPhone, iPad, Android, Android tablet, SPA iPhone, SPA iPad, SPA Android, SPA Android tablet and DesktopWeb
