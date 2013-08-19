@@ -1,3 +1,4 @@
 <globals>
     <attributes datatype="string" value="Mobile" name="channel"/>
+    <attributes datatype="boolean" value="true" name="flag"/>
 </globals>

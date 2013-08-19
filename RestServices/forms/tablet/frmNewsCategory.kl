@@ -829,9 +829,9 @@
                 <rc_winmobile>true</rc_winmobile>
                 <rc_winmobile6x>true</rc_winmobile6x>
                 <rc_winphone8>true</rc_winphone8>
-                <tabspa_ipad>false</tabspa_ipad>
-                <tabspa_windows>false</tabspa_windows>
-                <tabspaspa_android>false</tabspaspa_android>
+                <tabspa_ipad>true</tabspa_ipad>
+                <tabspa_windows>true</tabspa_windows>
+                <tabspaspa_android>true</tabspaspa_android>
                 <tc_spaandroid>true</tc_spaandroid>
                 <tc_spabb>true</tc_spabb>
                 <tc_spabb_nth>true</tc_spabb_nth>
@@ -1453,7 +1453,7 @@
                     <width>100</width>
                     <height>100</height>
                 </sizePercent>
-                <skinId>titleSkinSPA</skinId>
+                <skinId>sknTitleSPA</skinId>
                 <focusSkinId>Skin Defaults</focusSkinId>
                 <localeId>None</localeId>
                 <visible>true</visible>
@@ -2081,7 +2081,7 @@
             <winphone8_position>0</winphone8_position>
         </children>
         <children xsi:type="khBox">
-            <ID>hbox12115055011750</ID>
+            <ID>hbxcat1</ID>
             <gridMetaData>
                 <colSpan>1</colSpan>
                 <column>0</column>
@@ -2731,7 +2731,7 @@
             <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
             <children xsi:type="kvBox">
-                <ID>vbox12115055011804</ID>
+                <ID>vbxcat1</ID>
                 <gridMetaData>
                     <colSpan>1</colSpan>
                     <column>0</column>
@@ -4769,7 +4769,7 @@
                 <desktopweb_contextMenu>None</desktopweb_contextMenu>
             </children>
             <children xsi:type="kvBox">
-                <ID>vbox10408094332228</ID>
+                <ID>vbxcat2</ID>
                 <gridMetaData>
                     <colSpan>1</colSpan>
                     <column>0</column>
@@ -5404,7 +5404,7 @@
                 <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                 <children xsi:type="khBox">
-                    <ID>hbox10408094332227</ID>
+                    <ID>hbxcat2</ID>
                     <gridMetaData>
                         <colSpan>1</colSpan>
                         <column>0</column>
@@ -6054,7 +6054,7 @@
                     <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <children xsi:type="kScrollBox">
-                        <ID>scrollbox12115055011753</ID>
+                        <ID>scrlbxCat</ID>
                         <gridMetaData>
                             <colSpan>1</colSpan>
                             <column>0</column>
