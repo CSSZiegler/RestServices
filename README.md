@@ -18,7 +18,7 @@ This application will showcase the features like creating and using REST Service
  * SPA iPhone
  
 **Tablet** 
- * Anroid
+ * Android
  * iPad
  * SPA iPad
  * SPA Android
